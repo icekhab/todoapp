@@ -1,0 +1,31 @@
+.todo-list-item {
+    display: flex;
+    align-content: center;
+}
+
+.todo-list-item__text {
+    width: 100px;
+    align-self: center;
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+.todo-list-item__delete-btn {
+    padding: 4px 9px;
+    font-size: 14px;
+}
+
+.todo-list-item__important-btn {
+    padding: 4px 12px;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.todo-list-item__text_done {
+    text-decoration: line-through;
+}
+
+.todo-list-item__text_important {
+    font-weight: bold;
+    color: deepskyblue;
+}

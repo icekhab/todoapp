@@ -1,0 +1,11 @@
+.filter-panel {
+    display: flex;
+}
+
+.filter-panel__search {
+    flex-grow: 1;
+}
+
+.filter-panel__btn {
+    margin-left: 4px;
+}

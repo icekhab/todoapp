@@ -1,0 +1,12 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "react/prop-types": "ignore",
+    "react/prefer-stateless-function": "ignore",
+    "jsx-a11y/no-static-element-interactions": "ignore",
+    "jsx-a11y/click-events-have-key-events": "ignore"
+  },
+  "env": {
+    "browser": true
+  }
+}

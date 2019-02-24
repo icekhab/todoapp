@@ -1,0 +1,10 @@
+.b-page {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: auto;
+}
+
+.b-page-item {
+  margin-bottom: 10px;
+}
